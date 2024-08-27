@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/botaoLiberta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="proximo"
+        android:text="Campeões da Libertadores"/>
+
+    <Button
+        android:id="@+id/botaoCopaBrasil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="proximo1"
+        android:text="Campeões da Copa do Brasil"/>
+
+    <Button
+        android:id="@+id/botaoBrasileirão"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="proximo2"
+        android:text="Campeões do Brasileirão"/>
+
+
+
+
+</LinearLayout>
