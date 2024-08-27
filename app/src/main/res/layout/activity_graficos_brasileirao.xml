@@ -5,36 +5,53 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/novo"
     android:gravity="center"
     android:orientation="vertical"
     android:padding="10dp"
     tools:context=".GraficosBrasileiraoActivity">
 
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/graficoBarra"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="@drawable/botao_novo"
+        android:textColor="@color/white"
+        android:layout_margin="10dp"
+        android:padding="15dp"
         android:onClick="proximo"
         android:text="Grafico de barra"/>
 
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/graficoPizza"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="@drawable/botao_novo"
+        android:textColor="@color/white"
+        android:layout_margin="10dp"
+        android:padding="15dp"
         android:onClick="proximo1"
         android:text="Gráfico de pizza"/>
 
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/graficoLinha"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="@drawable/botao_novo"
+        android:textColor="@color/white"
+        android:layout_margin="10dp"
+        android:padding="15dp"
         android:onClick="proximo2"
         android:text="Gráfico de linha"/>
 
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/graficoRosca"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="@drawable/botao_novo"
+        android:textColor="@color/white"
+        android:layout_margin="10dp"
+        android:padding="15dp"
         android:onClick="proximo2"
         android:text="Gráfico de rosca"/>
 

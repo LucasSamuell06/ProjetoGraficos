@@ -2,32 +2,43 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/novo"
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center"
     android:orientation="vertical"
-    android:padding="10dp"
     tools:context=".MainActivity">
 
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/botaoLiberta"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/botao_novo"
         android:onClick="proximo"
-        android:text="Campeões da Libertadores"/>
+        android:text="Campeões da Libertadores"
+        android:textColor="@color/white" />
 
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/botaoCopaBrasil"
+        android:background="@drawable/botao_novo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:padding="15dp"
+        android:layout_margin="10dp"
         android:onClick="proximo1"
         android:text="Campeões da Copa do Brasil"/>
 
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/botaoBrasileirão"
+        android:background="@drawable/botao_novo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:padding="15dp"
+        android:layout_margin="10dp"
         android:onClick="proximo2"
         android:text="Campeões do Brasileirão"/>
 
