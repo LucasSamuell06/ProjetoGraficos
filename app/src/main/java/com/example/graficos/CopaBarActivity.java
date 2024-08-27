@@ -68,5 +68,4 @@ public class CopaBarActivity extends AppCompatActivity {
 }
 
 
-    }
-}
+

@@ -12,6 +12,7 @@ android {
         targetSdk = 34
         versionCode = 1
         versionName = "1.0"
+        
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
@@ -42,4 +43,5 @@ dependencies {
     androidTestImplementation(libs.espresso.core)
 
     implementation ("com.github.PhilJay:MPAndroidChart:v3.1.0")
+
 }

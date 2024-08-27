@@ -57,21 +57,26 @@ public class LiberLineActivity extends AppCompatActivity {
 
         List<Entry> entries1 = new ArrayList<>();
         entries1.add(new Entry(0, 10f));
-        entries1.add(new Entry(1, 10f));
-        entries1.add(new Entry(2, 15f));
-        entries1.add(new Entry(3, 16f));
-        entries1.add(new Entry(4, 17f));
-        entries1.add(new Entry(5, 18f));
-        entries1.add(new Entry(6, 19f));
+
 
         List<Entry> entries2 = new ArrayList<>();
         entries2.add(new Entry(0, 10f));
-        entries2.add(new Entry(1, 10f));
-        entries2.add(new Entry(2, 15f));
-        entries2.add(new Entry(3, 12f));
-        entries2.add(new Entry(4, 18f));
-        entries2.add(new Entry(5, 14f));
-        entries2.add(new Entry(6, 11f));
+
+        List<Entry> entries3 = new ArrayList<>();
+        entries2.add(new Entry(0, 10f));
+
+        List<Entry> entries4 = new ArrayList<>();
+        entries2.add(new Entry(0, 10f));
+
+        List<Entry> entries5 = new ArrayList<>();
+        entries2.add(new Entry(0, 10f));
+
+        List<Entry> entries6 = new ArrayList<>();
+        entries2.add(new Entry(0, 10f));
+
+        List<Entry> entries7 = new ArrayList<>();
+        entries2.add(new Entry(0, 10f));
+
 
         LineDataSet dataSet = new LineDataSet(entries1, "math");
         dataSet.setColor(Color.BLUE);
