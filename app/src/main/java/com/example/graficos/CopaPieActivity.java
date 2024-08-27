@@ -34,7 +34,7 @@ public class CopaPieActivity extends AppCompatActivity {
         entiers.add(new PieEntry(3,"Palmeiras"));
         entiers.add(new PieEntry(3,"Santos"));
 
-        PieDataSet pieDataSet = new PieDataSet(entiers, "subject");
+        PieDataSet pieDataSet = new PieDataSet(entiers, "Campeões da Copa do Brasil");
         pieDataSet.setColors(ColorTemplate.MATERIAL_COLORS);
 
         PieData pieData = new PieData(pieDataSet);

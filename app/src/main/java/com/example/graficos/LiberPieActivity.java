@@ -37,7 +37,7 @@ public class LiberPieActivity extends AppCompatActivity {
         entiers.add(new PieEntry(3,"Palmeiras"));
         entiers.add(new PieEntry(3,"Santos"));
 
-        PieDataSet pieDataSet = new PieDataSet(entiers, "subject");
+        PieDataSet pieDataSet = new PieDataSet(entiers, "Campeões da Libertadores");
         pieDataSet.setColors(ColorTemplate.MATERIAL_COLORS);
 
         PieData pieData = new PieData(pieDataSet);

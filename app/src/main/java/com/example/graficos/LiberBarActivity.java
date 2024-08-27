@@ -46,7 +46,7 @@ public class LiberBarActivity extends AppCompatActivity {
         yAxis.setAxisLineColor(android.R.color.black);
         yAxis.setLabelCount(10);
 
-        BarDataSet dataSet = new BarDataSet(entries,"Subjects");
+        BarDataSet dataSet = new BarDataSet(entries,"Campeões da Libertadores");
         dataSet.setColors(ColorTemplate.MATERIAL_COLORS);
 
         BarData barData = new BarData(dataSet);
